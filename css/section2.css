@@ -1,0 +1,37 @@
+.section2{
+	width: 90%;margin: auto;
+}
+.sec2{
+	width:90%; margin: auto;background: white
+}
+
+.line{
+	width: 100%;
+	margin: auto;margin-top: 30px;
+	height: 1px;border: 1px solid grey
+}
+.line1{
+	width: 100%;
+	margin: auto;margin-top: 10px;
+	height: 1px;border: 1px solid grey
+}
+.row{
+	width: 100%;
+	
+}.section2 .row #box1{
+	text-align: center;width: 40%;
+	height: 150px;
+padding: 30px;background: transparent;
+}
+.section2 #box2{
+	text-align: center;width: 40%;
+padding: 30px;	height: 150px;background: transparent;
+
+}
+
+
+
+.regions_div{
+	width: 90%;
+	margin: auto;height: 200px;background-color: transparent;
+}

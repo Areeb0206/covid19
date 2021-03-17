@@ -1,0 +1,23 @@
+#chart_div{
+  height: 300vh;
+  width: 100%;
+}
+.text{
+	width: 80%;text-align: center;
+	margin: auto;margin-top: 40px;
+}
+
+
+#piechart{
+	height: 80vh;width: 70%;margin: auto;
+}
+@media screen only (max-width: 425px){
+
+#chart_div{
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+}

@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.chead {
+  width: 80%;margin: 30px auto
+  height: 20vh;display: flex;justify-content: center;align-items: center;
+
+}
+.chead .content{
+  width: 80%;margin: 30px auto;display: grid;grid-template-rows: 60% 0%;
+}
+
+
+.chead .content h1{font-size: 50px; font-family: 'jura'
+}
+
+
+.chead .content p{font-size: 30px; font-family: 'jura';line-height: 30px;
+}
+.cont {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;margin:50px auto;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #EEEEEE;
+}
+
+.table-header {
+  display: flex;
+  width: 100%;
+  background: #000;
+  padding: 18px 0;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+}
+.table-row:nth-of-type(odd) {
+  background: #EEEEEE;
+}
+
+.table-data, .header__item {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.header__item {
+  text-transform: uppercase;
+}
+
+.filter__link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.filter__link::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  color: white;
+  font-size: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.filter__link.desc::after {
+  content: "(desc)";
+}
+.filter__link.asc::after {
+  content: "(asc)";
+}
+
+
+
+.last{width: 73%;
+  margin: 40px auto
+}
+.last p{
+  line-height: 30px;word-spacing: 4px;
+}
+.last a{
+  text-decoration: none;font-size: 20px;
+color:blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px)
+{
+ 
+.chead {
+  width: 90%;margin: 30px auto
+  height: 20vh;display: flex;justify-content: center;align-items: center;
+
+}
+.chead .content{
+  width: 90%;margin: 30px auto;display: grid;grid-template-rows: 30% 40%;
+}
+
+
+.chead .content h1{font-size: 26px; font-family: 'jura';word-spacing: 3px
+}
+
+
+.chead .content p{font-size: 24px; font-family: 'jura';line-height: 30px;word-spacing: 3px;
+}
+.cont {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;margin:50px auto;
+}
+
+.table {
+  width: 80%;margin: auto;
+  border: 1px solid #EEEEEE;
+}
+
+.table-header {
+display: grid;grid-template-columns: 40px 50px 50px 50px 50px; width: 100%;
+  background: #000;
+  padding: 5px 5px;
+}
+.header__item{
+  font-size: 7px;position: relative;right: 20px;
+}
+.table-row {font-size: 8px;
+
+display: grid;grid-template-columns:  50px 50px 50px 50px 50px;  width: 100%;
+ 
+
+  padding: 10px 15px;
+}
+.table-row:nth-of-type(odd) {
+  background: #EEEEEE;
+}
+
+.table-data, .header__item {
+flex: 1 1 20%;
+  text-align: left;
+}
+
+.header__item {
+  text-transform: uppercase;
+}
+
+
+.last{width: 73%;
+  margin: 40px auto
+}
+.last p{
+  line-height: 30px;word-spacing: 4px;
+}
+.last a{
+  text-decoration: none;font-size: 20px;
+color:blue;}
+
+
+
+
+
+
+
+
+
+}

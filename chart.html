@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/table.css">
+  <link rel="stylesheet" type="text/css" href="css/chart.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+
+ <div class="nav">
+       <div class="lines-container">
+           <div class="line line-1"></div>
+           <div class="line line-2"></div>
+           <div class="line line-3"></div>
+       </div>
+       <ul class="menu">
+           <li><a href="#" class="outer">About</a></li>
+           <li><a href="#" class="outer blog">Blog</a>
+                <ul class="blog-child">
+                    <li><a href="#" class="inner">Tech</a></li>
+                    <li><a href="#" class="inner">Travels</a></li>
+                    <li><a href="#" class="inner">Gaming</a></li>
+                </ul>
+            </li>
+           <li><a href="#" class="outer contact">Contacts</a>
+                <ul class="contact-child">
+                    <li><a href="#" class="inner">Email</a></li>
+                    <li><a href="#" class="inner">Social Media</a></li>
+                    <li><a href="#" class="inner">Address</a></li>
+                </ul>
+           </li>
+           <li><a href="#" class="outer">CV</a></li>
+       </ul>
+       <div class="pointer"></div>
+    </div> 
+
+
+<div class="text">
+  
+<h1>Comparision of Daily Sample test and confirm cases of the patients</h1>
+
+
+</div>
+
+
+  <div id="chart_div" ></div>
+
+
+
+
+
+<div class="text">
+  
+<h1>Facts And Figure</h1>
+
+
+</div>
+ <div id="piechart" ></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+<div class="lastcontent">
+    <div class="boxls">
+
+          <div class="ls">
+           <div class="ls1">NEWSLETTER</div>
+          </div>
+
+          <div class="lss"> 
+
+             <div class="ls3">
+                   <input type="" placeholder="Enter your email address" name="">
+             </div>
+
+             <div class="ls4"> 
+                <div class="grid">   <label class="checkbox path">
+                         <input type="checkbox">
+                         <svg viewBox="0 0 21 21">
+                         <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                         </svg>
+                         </label>
+                </div>
+                <div class="ls5">We will send out weekly newest article and some great offers</div>
+                </div>
+                <div class="buttonls">
+                     <button>SUBMIT</button>
+
+                </div>
+
+             </div>
+ 
+    
+      <div class="follow">
+         <h1>Follow Us On</h1>
+
+          <div class="sm">
+            <a href=""> <i class="fab fa-facebook" id="fb"></i></a>
+            <a href=""><i class="fab fa-instagram" id="insta"></i></a>
+            <a href=""> <i class="fab fa-twitter" id="twitter"></i></a>
+
+          </div>
+      </div>
+   </div>
+
+ 
+    <div class="oh">
+       <div class="heading">Opening Hours</div>
+       <div class="week">
+          <p>Mon-Tue</p>
+          <p>wed-Thur</p>
+          <p>Friday</p>
+          <p>Saturday</p>
+          <p>Sunday</p>
+       </div>
+       <div class="hours">
+        <p>8:00-18:00</p>
+        <p>8:00-18:00</p>
+        <p>8:00-18:00</p>
+        <p>8:00-18:00</p>
+        <p>Holiday</p>
+       </div>
+
+    </div>
+
+    <div class="link">
+      <div class="heading">         <p>links</p></div>
+      <div class="links">
+      <p>About</p><p>Contact</p><p>News</p><p>Service</p><p>Dentist</p></div>
+    </div>
+</div></footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+
+
+<script type="text/javascript">
+	google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawAnnotations);
+
+function drawAnnotations() {
+      var data = google.visualization.arrayToDataTable([
+        ['City', 'Sample Test', 'Confrim Cases'],
+        ['United Sates Of America', 8175000, 8008000],
+        ['', 3792000, 3694000],
+        ['', 2695000, 2896000],
+        ['', 2099000, 1953000],
+        ['', 1526000, 1517000],  ['', 8175000, 8008000],
+        ['', 3792000, 3694000],
+        ['', 2695000, 2896000],
+        ['', 2099000, 1953000],
+        ['', 1526000, 1517000], ['', 8175000, 8008000],
+        ['', 3792000, 3694000],
+        ['', 2695000, 2896000],
+        ['', 2099000, 1953000],
+        ['', 1526000, 1517000],  ['', 8175000, 8008000],
+        ['', 3792000, 3694000],
+        ['', 2695000, 2896000],
+        ['', 2099000, 1953000],
+        ['', 1526000, 1517000],  ['', 8175000, 8008000],
+        ['', 3792000, 3694000],
+        ['', 2695000, 2896000],
+        ['', 2099000, 1953000],
+        ['', 1526000, 1517000], ['', 8175000, 8008000],
+        ['', 3792000, 3694000],
+        ['', 2695000, 2896000],
+        ['', 2099000, 1953000],
+        ['', 1526000, 1517000]
+
+      ]);
+
+      var data = google.visualization.arrayToDataTable([
+        ['City', 'Sample Test', {type: 'string', role: 'annotation'},
+         'Confirm Cases', {type: 'string', role: 'annotation'}],
+        ['United Sates Of America', 8175000, '8.1M', 8008000, '8M'],
+        ['India', 3792000, '3.8M', 3694000, '3.7M'],
+        ['Brazil', 2695000, '2.7M', 2896000, '2.9M'],
+        ['Russai', 2099000, '2.1M', 1953000, '2.0M'],
+        ['UK', 1526000, '1.5M', 1517000, '1.5M'], ['Iran', 8175000, '8.1M', 8008000, '8M'],
+        ['France', 3792000, '3.8M', 3694000, '3.7M'],
+        ['Spain', 2695000, '2.7M', 2896000, '2.9M'],
+        ['Italy', 2099000, '2.1M', 1953000, '2.0M'],
+        ['Turkey', 1526000, '1.5M', 1517000, '1.5M'], ['Sweden', 8175000, '8.1M', 8008000, '8M'],
+        ['Columbia', 3792000, '3.8M', 3694000, '3.7M'],
+        ['Germany', 2695000, '2.7M', 2896000, '2.9M'],
+        ['Argentina', 2099000, '2.1M', 1953000, '2.0M'],
+        ['Mexico', 1526000, '1.5M', 1517000, '1.5M'], ['Pakistan', 8175000, '8.1M', 8008000, '8M'],
+        ['Poland', 3792000, '3.8M', 3694000, '3.7M'],
+        ['Iran', 2695000, '2.7M', 2896000, '2.9M'],
+        ['South Africa', 2099000, '2.1M', 1953000, '2.0M'],
+        ['Ukraine', 1526000, '1.5M', 1517000, '1.5M'], ['Switzerland', 8175000, '8.1M', 8008000, '8M'],
+        ['Peru', 3792000, '3.8M', 3694000, '3.7M'],
+        ['Indonesia', 2695000, '2.7M', 2896000, '2.9M'],
+        ['Netherlands', 2099000, '2.1M', 1953000, '2.0M'],
+        ['Portugal', 1526000, '1.5M', 1517000, '1.5M'], ['Bangladesh', 8175000, '8.1M', 8008000, '8M'],
+        ['Chile', 3792000, '3.8M', 3694000, '3.7M'],
+        ['Romania', 2695000, '2.7M', 2896000, '2.9M'],
+        ['Belgium', 2099000, '2.1M', 1953000, '2.0M'],
+        ['Israel', 1526000, '1.5M', 1517000, '1.5M']
+      ]);
+
+      var options = {
+        title: 'Comparision of Daily Sample test and confirm cases of the patients',
+        chartArea: {width: '50%'},
+        annotations: {
+          alwaysOutside: true,
+          textStyle: {
+            fontSize: 12,
+            auraColor: 'none',
+            color: '#555'
+          },
+          boxStyle: {
+            stroke: '#ccc',
+            strokeWidth: 1,
+            gradient: {
+              color1: '#f3e5f5',
+              color2: '#f3e5f5',
+              x1: '0%', y1: '0%',
+              x2: '100%', y2: '100%'
+            }
+          }
+        },
+        hAxis: {
+          title: 'Cases',
+          minValue: 0,
+        },
+        vAxis: {
+          title: 'Countries'
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+</script>
+
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['country', 'cases'],
+          ['USA',     4200000],
+          ['india',      2400000],
+          ['Brazil',  1400000],
+          ['Russia', 1000000],
+          ['South Africa',   90000], 
+          ['Mexico',      80000],
+          ['Peru',  40000],
+          ['Chile', 600000],
+          ['United Kingdom',   5000],['Iran',400000]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+
+
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/table.js"></script>
+
+</body>
+</html>
